@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <title>Restaurante Cetis menu</title>
+</head>
+<body>
+    <style>
+        img{
+            width:200px;
+            height:auto;
+        }
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px black;
+            margin-left:50px ;
+        }
+        th,tr{
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: beige;
+        }
+        tr:hover{
+            background-color: aquamarine;
+        }
+    </style>
+    <div style="margin: 24px;">
+        <nav class="navba navbar-light"
+        style="background-color: rgb(234, 238, 226);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"
+            >Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNabDropDown">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item
+                     dropdown">
+                     <a class="nav-link dropdown-toggle"
+                     href="" id="navbarDropdownMenuLink"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">unidad 1</a>
+                     <div class="dropdown-menu"
+                     aria-labelledby="navbarDripdownMenuLink">
+                     <a class="dropdown-item" href="perfil1.html">perfil</a><br>
+                     <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                     <a class="dropdown-item" href="tienda.html">Tienda parte 1</a><br>
+                     </div>
+                    </li>
+                    <li class="nav-item
+                    dropdown">
+                    <a class="nav-link dropdown-toggle"
+                    href="" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">unidad 2</a>
+                    <div class="dropdown-menu"
+                    aria-labelledby="navbarDripdownMenuLink">
+                    <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                    <a class="dropdown-item" href="json.html">JSON</a><br>
+                    <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                    </div>
+                   </li>
+                   <li class="nav-item
+                   dropdown">
+                   <a class="nav-link dropdown-toggle"
+                   href="" id="navbarDropdownMenuLink"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">unidad 3</a>
+                   <div class="dropdown-menu"
+                   aria-labelledby="navbarDripdownMenuLink">
+                   <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+                   <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                   </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div style="margin:24px;">
+    </div>
+    <a href="tienda.html"></a>
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="desayuno.jpg" alt="Desayuno"></td>
+            <td><p>Pan frances con frutillas y miel</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno2.jpg" alt="Desayuno"></td>
+            <td><p>Avena con frutitas</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno3.jpg" alt="Desayuno"></td>
+            <td><p>El pan tostado con aguacate y huevo es el desayuno saludable perfecto. Lleno de tanto sabor que no querrás perderte ni un bocado.</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno4.jpg" alt="Hotcakes"></td>
+            <td><p>Se conoce como hot cake a un pan plano redondo dulce, cuya masa base contiene usualmente leche, mantequilla, huevos, harina de trigo, levadura, azúcar, sal y esencia o saborizantes.</p></td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno5.jpg" alt="Desayuno"></td>
+            <td><p>La crepa,crepe o creps es un receta con la que se elabora una masa en forma de disco, de unos 16 cm de diámetro que se rellena y se pliega en forma de triángulo.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno6.jpg" alt="Desayuno"></td>
+            <td><p>Pan frances con frutillas y yogurt griego</p></td>
+            <td>$80</td>
+        </tr>
+
+    
+    </table>
+    <h1>Almuerzos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="alm1.jpg" alt="Desayuno"></td>
+            <td><p>Brocoli con vinagreta de hortalizas
+                El brócoli es una verdura con muchos nutrientes, pero un bajo aporte de calorías. Además, su contenido en grasas es casi mínimo. Ayuda a regular los niveles de colesterol en sangre, contiene vitamina A, B9, C, E, ácido fólico y tiene un gran contenido en fibra. Inclúyelo en tus almuerzos saludables o si estás intentando perder peso</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="alm2.jpg" alt="Desayuno"></td>
+            <td><p>Crema de zanahorias 
+                Aunque un poco más calórica, por su aporte de grasas en la receta, esta propuesta sana para el almuerzo está deliciosa y, al contener zanahoria y naranja, te aportará un gran contenido en vitaminas A, E y C, así como un gran contenido en fibra
+            </p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="alm3.jpg" alt="Desayuno"></td>
+            <td><p>Brochetas de pollo con calabaza</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="alm4.jpg" alt="Desayuno"></td>
+            <td><p>Brochetas de carne de res marinadas</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="alm5.jpg" alt="Desayuno"></td>
+            <td><p>El conejo es una carne blanca muy apreciada en la cocina debido a su alto contenido en proteínas, y a veces algo olvidado, que apenas contiene grasas y no cuenta con hidratos de carbono. Por eso, cualquier receta con conejo podrá formar parte de tus almuerzos saludables y te saciará.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="alm6.jpg" alt="Desayuno"></td>
+            <td><p>Chilaquiles rojos acompañados de un huevo frito</p></td>
+            <td>$80</td>
+        </tr>
+
+    
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="comida1.jpg" alt="Comida"></td>
+            <td><p>Tostada de salmon con guacamole 
+                Otro de los pescados más saludables es el salmón. Este pescado de color anaranjado se ha convertido en uno de los favoritos en la cocina. Y es que con el salmón se pueden hacer muchas recetas. Desde un sencillo salmón a la plancha con eneldo, pasando por una tostada como esta, hasta un tartar
+            </p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="comida2.jpg" alt="Comida"></td>
+            <td><p>Salteado de verduras con Avena
+                Un salteado de verduras fácil de hacer y acompañado de avena. También se puede cambiar, si lo prefieres, la avena por otro cereal: quinoa, arroz integral...
+            </p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno3.jpg" alt="Comida"></td>
+            <td><p>Huevos fritos en pan tostado</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="comida3.jpg" alt="Comida"></td>
+            <td><p>Ramen vegano 
+                Es posible disfrutar de este plato popular en la comida asiática de una forma saludable, más ligera y apto para veganos. Además, este ramen cuenta con tofu, una proteína que es fuente de calcio, hierro y otros minerales. 
+            </p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="comida5.jpg" alt="Comida"></td>
+            <td><p>TERNERA SALTEADA CON BRÓCOLI, CHAMPIÑONES Y PIMIENTO VERDE</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="comida6.jpg" alt="Comida"></td>
+            <td><p>SPAGHETTI CON CALABACIN Y TOMATES SECOS</p></td>
+            <td>$80</td>
+        </tr>
+    </table>
+    <h1>Cenas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="cena1.jpg" alt="Desayuno"></td>
+            <td><p>Orden de Tacos de bistek o res a la mexicana tradicional.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="cena2.jpg" alt="Desayuno"></td>
+            <td><p>Enchiladas verdes con queso y aguacate al gusto.</p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="cena3.jpg" alt="Desayuno"></td>
+            <td><p>Tostadas de barbacoa con su pico de gallo y aguacate.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="cena4.jpg" alt="Desayuno"></td>
+            <td><p>Tacos de birria acompañado de su consome.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="cena5.jpg" alt="Desayuno"></td>
+            <td><p>Entomatadas bañadas en crema.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="cena6.jpg" alt="Desayuno"></td>
+            <td><p>Flautas con crema y ensalada bien doraditas. </p></td>
+            <td>$60</td>
+        </tr>
+
+    </table>
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="postre1.jpg" alt="Postre1"></td>
+            <td><p>Smoothie de chocolate. </p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="postre2.jpg" alt="Postre2"></td>
+            <td><p>Cafe sencillo con batido encima.</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="postre3.jpg" alt="Postre3"></td>
+            <td><p>Pastelillos dulces, pequeños, que tienen una cubierta de chocolate y pueden incluir en su interior trocitos de nuez, chocolate, mantequilla de cacahuate y una variedad de ingredientes.</p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="postre4.jpg" alt="Postre4"></td>
+            <td><p>Las fresas con nata o crema son un postre y una merienda de origen inglés,que incluye las citadas frutas que se sirven troceadas y bañadas en nata montada con azúcar o bien con nata montada y azúcar moreno salpicada al gusto.</p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="postre5.jpg" alt="Postre5"></td>
+            <td><p>Postre exquisito y con presentación agradable, incluído entre los favoritos de la cocina mexicana. Consistente en un pastel de dos capas: una de flan y otra de bizcocho de chocolate</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="postre6.jpg" alt="Postre6"></td>
+            <td><p>Postre elaborado con masa de harina de trigo horneada y otros ingredientes o preparaciones.</p></td>
+            <td>$30</td>
+        </tr>
+    </table>
+
+        <h1>Bebidas</h1>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="bebida1.jpg" alt="Bebida"></td>
+                <td><p>Bebida de elaboración usualmente casera, a base de limón, agua y azúcar</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="bebida2.jpg" alt="Bebida"></td>
+                <td><p>Agua de moras especial con un toque acido y dulce.</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="bebida3.jpg" alt="Bebida"></td>
+                <td><p>Aguas naturales.</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="bebida4.jpg" alt="Bebida"></td>
+                <td><p>Agua natural refrescante 100% sandia natural..</p></td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td><img src="bebida6.jpg" alt="Bebida"></td>
+                <td><p>Aguas refrescantes naturales echas a base de fruta natural de tamarindo. jamaica y horchata.</p></td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td><img src="bebida5.jpg" alt="Bebida"></td>
+                <td><p>bebida refrescante que se prepara normalmente con granos de arroz remojados en agua que después se muelen y se mezclan con agua endulzada; al final se aromatiza con canela. Puede añadirse leche y, ocasionalmente, otros ingredientes.</p></td>
+                <td>$25</td>
+            </tr>
+    </table>
+
+
+</body>
+</html>
